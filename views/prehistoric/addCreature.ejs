@@ -1,0 +1,9 @@
+<h2>Add Creature</h2>
+
+<form action="/prehistoric" method="post"> <% //where you want the page to go after submitting form.  %> 
+    <label for="creatureType">Type: </label>
+    <input type="text" name="type"  id="creatureType">
+    <label for="creatureImg">Image: </label>
+    <input type="text" name="img_url"  id="creatureImg"> <% //you need a name for these because that would be the key in your key-value pairs inside the json file %> 
+    <input type="submit" value="Add New Dino!">
+</form>
