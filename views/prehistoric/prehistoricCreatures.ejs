@@ -1,11 +1,13 @@
-<form action="/prehistoric" method="get">
-  <label for="nameFilter">Filter By Name: </label>
-  <input type="text" name="nameFilter" id="nameFilter">
-  <input type="submit" value="Filter Results">
-</form>
 
 
-
+    <a href="/prehistoric/addcreature"><p>Add a Creature! </p></a>
+   
+   
+    <form action="/prehistoric" method="get">
+      <label for="nameFilter">Filter By Name: </label>
+      <input type="text" name="nameFilter" id="nameFilter">
+      <input type="submit" value="Filter Results">
+    </form>
 
     <% creatures.forEach( (creature, index) => { %> 
       Name: <%= creature.type %>
